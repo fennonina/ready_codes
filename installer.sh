@@ -2,9 +2,10 @@
 wget https://raw.githubusercontent.com/fennonina/ready_codes/main/ssh_script.sh
 mv ssh_script.sh /etc/
 echo alias vpn=/etc/ssh_script.sh >> /etc/bash.bashrc
+clear
 echo "All done.."
-sleep 3
-bash
+sleep 2
+/etc/bash.bashrc
 clear
 echo "====================================================="
 echo "use the 'vpn' command to connect to your ssh server"
